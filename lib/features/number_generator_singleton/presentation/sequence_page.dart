@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:singleton_pattern/features/logger/domain/debug_logger.dart';
-import 'package:singleton_pattern/features/number_generator/domain/number_generator.dart';
+import 'package:singleton_pattern/features/logger_singleton/domain/debug_logger.dart';
+import 'package:singleton_pattern/features/number_generator_singleton/domain/number_generator.dart';
 
 class SequencePage extends StatefulWidget {
   const SequencePage({Key? key}) : super(key: key);
