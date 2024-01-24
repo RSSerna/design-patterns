@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:singleton_pattern/features/number_generator/presentation/sequence_page.dart';
-import 'features/file_manager/presentation/screens/log_message_page.dart';
-import 'features/file_manager/presentation/screens/show_audit_page.dart';
+import 'package:singleton_pattern/features/number_generator_singleton/presentation/sequence_page.dart';
+import 'features/file_manager_singleton/presentation/screens/log_message_page.dart';
+import 'features/file_manager_singleton/presentation/screens/show_audit_page.dart';
 
 void main() {
   runApp(const MyApp());
