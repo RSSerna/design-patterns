@@ -1,5 +1,3 @@
-import 'dart:js_interop';
-
 class User {
   final String firstName;
   final String lastName;
