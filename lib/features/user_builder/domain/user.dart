@@ -81,7 +81,7 @@ class RegisteredUserBuild extends UserBuilder {
   @override
   void validate() {
     super.validate();
-    if (emailAddress.isNull) {
+    if (emailAddress == null) {
       throw Exception('Must have an Email Address');
     }
   }
@@ -105,7 +105,7 @@ class UserDirector {
   }
 
   User getUser() {
-    if (userBuilder.isNull) {
+    if (userBuilder == null) {
       throw Exception('User Builder is needed');
     }
     return userBuilder!.build();
