@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:singleton_pattern/features/shape_factory/domain/shape.dart';
-import 'package:singleton_pattern/utils.dart';
+import 'package:singleton_pattern/features/shape_factory/domain/utils.dart';
 
 /// global state data
 Shape currShape = NullShape();
